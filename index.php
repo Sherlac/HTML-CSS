@@ -34,43 +34,34 @@
 		<!-- First project -->
 		<div id="index_portfolio">
 			<article class="article_portfolio article_portfolio-active">
-					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">
-					<span>
-	    				<h3>Portfolio Web Développeur - En production</h3>
-	    				<p>Pour vous faire découvrir mon travail et vous permettre de me contacter, ce portfolio a été développé pour être accessible, avec un design adapté à chaque type d'écran et pensé pour une utilisation mobile en premier lieu.
-	    				</br>HTML, CSS.
-	    				</p>
-			    		<button class="portfolio__btn" id="portfolio_btn-1-next">Suivant</button>		
-					</span>
+				<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">				
+				<h3>Portfolio Web Développeur - En production</h3>
+				<p>Pour vous faire découvrir mon travail et vous permettre de me contacter, ce portfolio a été développé pour être accessible, avec un design adapté à chaque type d'écran et pensé pour une utilisation mobile en premier lieu.
+				</br>HTML, CSS.
+				</p>
+	    		<button class="portfolio__btn" id="portfolio_btn-1-next">Suivant</button>					
 			</article>
 			<!-- Second project -->
-			<article class="article_portfolio">
-					
-					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet2.jpg" alt="">
-	    			<span>
-	    				<h3>Blog - (Prochainement)</h3>
-	    				<p>Description 2 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce portfolio, valeur ajoutée.</p>
-			    		<button class="portfolio__btn" id="portfolio_btn-2-next">Suivant</button>
-					</span>
+			<article class="article_portfolio">					
+				<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet2.jpg" alt="">    			
+				<h3>Blog - (Prochainement)</h3>
+				<p>Description 2 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce portfolio, valeur ajoutée.</p>
+	    		<button class="portfolio__btn" id="portfolio_btn-2-next">Suivant</button>			
 			</article>
 			<!-- Third project -->
 			<article class="article_portfolio">
-					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet3.jpg" alt="">
-    				<span>
-    					<h3>E-commerce - (Prochainement)</h3>
-    					<p>Description 3 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce 
-    					portfolio, valeur ajoutée.</p>
-			    		<button class="portfolio__btn" id="portfolio_btn-3-next">Suivant</button>
-					</span>
+				<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet3.jpg" alt="">    				
+				<h3>E-commerce - (Prochainement)</h3>
+				<p>Description 3 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce 
+				portfolio, valeur ajoutée.</p>
+	    		<button class="portfolio__btn" id="portfolio_btn-3-next">Suivant</button>				
 			</article>
 			<!-- Last project -->
 			<article class="article_portfolio">
-					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet4.jpg" alt="">
-    				<span>
-    					<h3>Application Web - (Prochainement)</h3>
-    					<p>Description 4 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce portfolio, valeur ajoutée.</p>
-			    		<button class="portfolio__btn" id="portfolio_btn-4-next">Suivant</button>
-		    		</span>
+				<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet4.jpg" alt="">
+				<h3>Application Web - (Prochainement)</h3>
+				<p>Description 4 courte, sur deux trois lignes, histoire de savoir ce qu'il en est et pourquoi ce travail est dans ce portfolio, valeur ajoutée.</p>
+	    		<button class="portfolio__btn" id="portfolio_btn-4-next">Suivant</button>
 			</article>
 		</div>
 	</section>
@@ -82,7 +73,7 @@
 		<p><span class="guillemets">"</span>J'ai appris les bases du développement en suivant des cours en ligne, mais c'est en développant mes propres projets que j'ai découvert l'étendue des possibilités.<span class="guillemets">"</span>
    		</p>
    		<!-- Skills unorganised list -->
-   		<p class="skills_category">Web Design</p>
+   		<h3 class="skills_category">Web Design</h3>
    		<ul>
    			<li>Responsive</li>
    			<li>Accessible</li>
