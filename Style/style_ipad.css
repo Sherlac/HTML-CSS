@@ -1,0 +1,98 @@
+
+
+
+/* style.css | https://charles-mariot.fr/wp-content/themes/Portfolio/style.css */
+
+
+.main_menu_ul li a {
+  /* padding-right: 34px; */
+  padding-right: 50px;
+}
+
+
+button, .form__btn {
+  /* border-radius: 2.5vw; */
+  border-radius: 5px;
+}
+
+section {
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+p, label {
+  /* line-height: 5vw; */
+  /* font-size: 1em; */
+  /* margin-top: 2vh; */
+  /* margin-bottom: 2vh; */
+  line-height: 3vw;
+  font-size: 1.3em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.main_menu_ul {
+  /* width: 50vw; */
+  width: 30vw;
+}
+
+#menuPrincipal {
+  /* width: 50vw; */
+  width: 30vw;
+}
+
+h3 {
+  /* font-size: 1.3em; */
+  /* margin-top: 1vh; */
+  font-size: 1.4em;
+  margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+
+ul, li {
+  /* font-size: 1em; */
+  font-size: 1.2em;
+}
+
+h2 {
+  /* margin-bottom: 3vh; */
+  margin-bottom: 1vh;
+      font-size: 1.7em;
+
+}
+
+.image_article_portfolio_index {
+max-width: 50%;
+}
+
+/* style_landscapeiphone.css | https://charles-mariot.fr/wp-content/themes/Portfolio/Style/style_landscapeiphone.css */
+
+.skills_category {
+  /* font-size: 1em; */
+  font-size: 1.4em;
+}
+
+footer {
+  /* min-height: 100vh; */
+  min-height: 66vh;
+}
+
+
+
+/* style.css | https://charles-mariot.fr/wp-content/themes/Portfolio/style.css */
+
+footer p {
+  /* font-size: small; */
+  font-size: 1em;
+}
+
+
+#about {
+display: flex;
+flex-direction: column;
+padding-left: 20%;
+padding-right: 20%;
+}
