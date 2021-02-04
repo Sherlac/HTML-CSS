@@ -11,8 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
         <!-- Link the main style.css file, for mobile in portrait orientation -->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" media="screen">
-		<!-- Link the style.css file, for mobile in landscape orientation -->
-		<link media="(min-width: 500px)" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/Style/style_landscapeiphone.css" type="text/css">
 		<!-- Link the style.css file, for ipad resolution -->
 		<link media="(min-width: 700px)" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/Style/style_ipad.css" type="text/css">
 		<!-- Link the style.css file, for ipad resolution -->

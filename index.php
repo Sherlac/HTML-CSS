@@ -7,8 +7,8 @@
 	<section id="landing_section">
 		<h1>Bonjour, 
 		</br>je m'appelle Charles</h1>
-		<p>Créateur de contenu, Développeur & Étudiant,
-		</br>Je cherche à produire des choses innovantes, avec des cycles d'itérations rapides.</p>
+		<p>Développeur, Créateur de contenu & Étudiant,
+		</br>Je cherche à produire des choses innovantes en utilisant des cycles d'itération.</p>
 		<a href="#contact"><button>Discutons</button></a>
 	</section>
 
@@ -35,8 +35,8 @@
 		<div id="index_portfolio">
 			<article class="article_portfolio article_portfolio-active">
 				<a href="<?php bloginfo('template_url'); ?>/project1">
-					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">				
 					<h3>Portfolio Web Développeur - En production</h3>
+					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">				
 					<p>Pour vous faire découvrir mon travail et vous permettre de me contacter, ce portfolio a été développé pour être accessible, avec un design adapté à chaque type d'écran et pensé pour une utilisation mobile en premier lieu.
 					</br>HTML, CSS.
 					</p>
@@ -85,7 +85,7 @@
 	   		</div>
 	   		<div id="services">
 		   		<h3 class="skills_category">Service 3</h3>
-				<p>Proposition de valeur 2</p>
+				<p>Proposition de valeur 3</p>
 	   		</div>
    		</div>
 		</section>
