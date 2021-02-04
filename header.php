@@ -23,7 +23,7 @@
 
     	<header role="banner">
     		<!-- Logo -->
-    		<a href="https://charles-mariot.fr" title="charles-mariot.fr"><p class="index_logo">CM</p></a>
+    		<a href="<?php bloginfo('url'); ?>" title="charles-mariot.fr"><p class="index_logo">CM</p></a>
     		<!-- Menu -->
     		<nav class="menu_opener" onclick="openMenu()">	
     			<!-- Logo du menu -->		
@@ -37,11 +37,11 @@
 						<div class="close_menu">
 							<div class="close_menu_icon"></div>
 						</div>
-						<li><a href="https://charles-mariot.fr">Accueil</a></li>
-						<li><a href="https://charles-mariot.fr#about">À Propos</a></li>
-						<li><a href="https://charles-mariot.fr#portfolio">Portfolio</a></li>
-						<li><a href="https://charles-mariot.fr#skills">Compétences</a></li>
-						<li><a href="https://charles-mariot.fr#contact">Contact</a></li>
+						<li><a href="<?php bloginfo('url'); ?>">Accueil</a></li>
+						<li><a href="<?php bloginfo('url'); ?>#about">À Propos</a></li>
+						<li><a href="<?php bloginfo('url'); ?>#portfolio">Portfolio</a></li>
+						<li><a href="<?php bloginfo('url'); ?>#skills">Compétences</a></li>
+						<li><a href="<?php bloginfo('url'); ?>#contact">Contact</a></li>
 					</ul>
 				</div>  
 			</nav>

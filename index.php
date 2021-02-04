@@ -30,15 +30,17 @@
 
 	<!-- Portfolio section : 4 projects that I'm proud to show you -->
 	<section id="portfolio">
-		<h2>Ce sur quoi j'ai travaillé</h2>
+		<h2>Les projets sur lesquels j'ai travaillé</h2>
 		<!-- First project -->
 		<div id="index_portfolio">
 			<article class="article_portfolio article_portfolio-active">
-				<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">				
-				<h3>Portfolio Web Développeur - En production</h3>
-				<p>Pour vous faire découvrir mon travail et vous permettre de me contacter, ce portfolio a été développé pour être accessible, avec un design adapté à chaque type d'écran et pensé pour une utilisation mobile en premier lieu.
-				</br>HTML, CSS.
-				</p>
+				<a href="<?php bloginfo('template_url'); ?>/project1">
+					<img class="image_article_portfolio_index" src="<?php bloginfo('template_url'); ?>/Images/projet1.jpg" alt="">				
+					<h3>Portfolio Web Développeur - En production</h3>
+					<p>Pour vous faire découvrir mon travail et vous permettre de me contacter, ce portfolio a été développé pour être accessible, avec un design adapté à chaque type d'écran et pensé pour une utilisation mobile en premier lieu.
+					</br>HTML, CSS.
+					</p>
+				</a>
 	    		<button class="portfolio__btn" id="portfolio_btn-1-next">Suivant</button>					
 			</article>
 			<!-- Second project -->
@@ -68,17 +70,24 @@
 
 	<!-- Skills section -->
 	<section id="skills">
-		<h2>Les compétences que j'ai développé</h2>
+		<h2>Comment puis-je vous aider ?</h2>
 		<!-- How I develop my skills -->
 		<p><span class="guillemets">"</span>J'ai appris les bases du développement en suivant des cours en ligne, mais c'est en développant mes propres projets que j'ai découvert l'étendue des possibilités.<span class="guillemets">"</span>
    		</p>
-   		<!-- Skills unorganised list -->
-   		<h3 class="skills_category">Web Design</h3>
-   		<ul>
-   			<li>Responsive</li>
-   			<li>Accessible</li>
-   			<li>Mobile 1st</li>
-   		</ul>
+   		<div id="services_container">
+   			<div id="services">
+		   		<h3 class="skills_category">Service 1</h3>
+		   		<p>Proposition de valeur 1</p>
+	   		</div>
+	   		<div id="services">
+		   		<h3 class="skills_category">Service 2</h3>
+				<p>Proposition de valeur 2</p>
+	   		</div>
+	   		<div id="services">
+		   		<h3 class="skills_category">Service 3</h3>
+				<p>Proposition de valeur 2</p>
+	   		</div>
+   		</div>
 		</section>
 
 	<!-- Contact -->

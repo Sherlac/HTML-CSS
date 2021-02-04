@@ -20,8 +20,12 @@ width: 35vw;
 width: 35vw;
 }
 
+.main_menu_ul li a 
+{
+	padding-right: 34.5px;
+}
+
 p, label {
-line-height: 3vw;
 font-size: 1.1em;
 }
 
