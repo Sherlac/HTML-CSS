@@ -15,15 +15,17 @@ section {
   }
 
   p {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
   font-size: 1.8em;
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
   }
 
-
+  .guillemets {
+  font-size: 1.8em;
+  }
 
   button, .form__btn {
   padding: 1vw 3vw;
@@ -31,11 +33,14 @@ section {
 
   #about {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   padding-left: 5%;
   padding-right: 5%;
   }
 
+  #about > div:nth-child(2) {
+  text-align: justify;
+  }
 
   #about_image {
   width: 25vw;
@@ -48,7 +53,7 @@ section {
 
   h2 {
   font-size: 2.3em;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
   }
 
   .article_portfolio-active {
@@ -67,9 +72,9 @@ section {
 
 
   h3 {
-  margin-top: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
   font-size: 1.8em;
-  margin-bottom: 3vh;
   }
 
   ul, li {
@@ -84,6 +89,10 @@ section {
   .skills_category {
   line-height: 3vw;
   margin-top: 2vw;
+  }
+  
+  #services {
+  margin: 2%;
   }
   
   #services p {
@@ -121,5 +130,3 @@ section {
   footer ul {
   margin: auto;
   }
-
-

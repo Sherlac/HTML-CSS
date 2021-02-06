@@ -227,6 +227,9 @@ p, label
 	margin-bottom: 2vh;
 }
 
+  .guillemets {
+  font-size: 1.5rem;
+  }
 
 button, .form__btn 
 {
